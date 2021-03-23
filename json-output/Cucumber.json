@@ -1,0 +1,44 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login",
+        "description": "",
+        "id": "tagging-concept;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 223766152,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login to actitime",
+            "match": {
+              "location": "TaggingDemo.login_to_actitime()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Tagging Concept",
+    "description": "",
+    "id": "tagging-concept",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Tagging.feature"
+  }
+]
